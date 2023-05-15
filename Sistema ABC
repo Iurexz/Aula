@@ -1,0 +1,133 @@
+
+Algoritmo "Seu cu"
+
+Var
+m1,m2,m3,m4,m5,m6,m7,m8,m9,m10:caractere
+
+pu1,pu2,pu3,pu4,pu5,pu6,pu7,pu8,pu9,pu10:real
+
+ca1,ca2,ca3,ca4,ca5,ca6,ca7,ca8,ca9,ca10:real
+
+vca1,vca2,vca3,vca4,vca5,vca6,vca7,vca8,vca9,vca10:real
+
+vcc1,vcc2,vcc3,vcc4,vcc5,vcc6,vcc7,vcc8,vcc9,vcc10:real
+
+ptg1,ptg2,ptg3,ptg4,ptg5,ptg6,ptg7,ptg8,ptg9,ptg10:real
+Inicio
+//Produto 1
+escreval(" Nome do Material")
+leia(m1)
+escreval("Preço Unit")
+leia(pu1)
+escreval("Consumo Anual")
+leia(ca1)
+vca1<-(pu1*ca1)
+escreval(vca1)
+
+
+//Produto 2
+escreval(" Nome do Material")
+leia(m2)
+escreval("Preço Unit")
+leia(pu2)
+escreval("Consumo Anual")
+leia(ca2)
+vca2<-(pu2*ca2)
+escreval(vca2)
+
+
+//Produto 3
+escreval(" Nome do Material")
+leia(m3)
+escreval("Preço Unit")
+leia(pu3)
+escreval("Consumo Anual")
+leia(ca3)
+vca3<-(pu3*ca3)
+escreval(vca3)
+
+
+//Produto 4
+escreval(" Nome do Material")
+leia(m4)
+escreval("Preço Unit")
+leia(pu4)
+escreval("Consumo Anual")
+leia(ca4)
+vca4<-(pu4*ca4)
+escreval(vca4)
+
+
+//Produto 5
+escreval(" Nome do Material")
+leia(m5)
+escreval("Preço Unit")
+leia(pu5)
+escreval("Consumo Anual")
+leia(ca5)
+vca5<-(pu5*ca5)
+escreval(vca5)
+
+
+//Produto 6
+escreval(" Nome do Material")
+leia(m6)
+escreval("Preço Unit")
+leia(pu6)
+escreval("Consumo Anual")
+leia(ca6)
+vca6<-(pu6*ca6)
+escreval(vca6)
+
+
+//Produto 7
+escreval(" Nome do Material")
+leia(m7)
+escreval("Preço Unit")
+leia(pu7)
+escreval("Consumo Anual")
+leia(ca7)
+vca7<-(pu7*ca7)
+escreval(vca7)
+
+
+//Produto 8
+escreval(" Nome do Material")
+leia(m8)
+escreval("Preço Unit")
+leia(pu8)
+escreval("Consumo Anual")
+leia(ca8)
+vca8<-(pu8*ca8)
+escreval(vca8)
+
+
+//Produto 9
+escreval(" Nome do Material")
+leia(m9)
+escreval("Preço Unit")
+leia(pu9)
+escreval("Consumo Anual")
+leia(ca9)
+vca9<-(pu9*ca9)
+escreval(vca9)
+
+
+//Produto 10
+escreval(" Nome do Material")
+leia(m10)
+escreval("Preço Unit")
+leia(pu10)
+escreval("Consumo Anual")
+leia(ca10)
+vca10<-(pu10*ca10)
+escreval(vca10)
+
+
+
+
+
+
+
+
+Fimalgoritmo
