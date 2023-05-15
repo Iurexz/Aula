@@ -1,0 +1,49 @@
+
+Algoritmo "semnome"
+
+Var
+materia,respi,respf,resps:caractere
+
+
+inicio
+escreval("Qual o matérial?")
+leia(materia)
+escreval("Ele é importante para o equipamento?")
+leia(respi)
+escreval("O equip é de linha de frente?")
+leia(respf)
+escreval("Existe similar?")
+leia(resps)
+
+se (respi ="não") e (respf="sim")  e (resps="sim") entao
+escreval(" O matérial ",materia," é X")
+senao
+se (respi="sim") e (respf="sim") e (resps="sim") entao
+escreval("O matérial ",materia," é Y")
+senao
+se (respi="sim") e (respf="sim") e (resps="não") entao
+escreval("O matérial ",materia," é Z")
+senao
+se (respi ="não") e (respf="sim")  e (resps="não") entao
+escreval(" O matérial ",materia," é X")
+senao
+se (respi ="não") e (respf="não")  e (resps="sim") entao
+escreval(" O matérial ",materia," é X")
+senao
+se (respi ="não") e (respf="não")  e (resps="não") entao
+escreval(" O matérial ",materia," é X")
+senao
+se (respi ="sim") e (respf="não")  e (resps="não") entao
+escreval(" O matérial ",materia," é X")
+senao
+se (respi ="sim") e (respf="não")  e (resps="sim") entao
+escreval(" O matérial ",materia," é X")
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+Fimalgoritmo
