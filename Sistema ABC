@@ -123,9 +123,33 @@ leia(ca10)
 vca10<-(pu10*ca10)
 escreval(vca10)
 
+escreval("-------------------------------------------------------------------------")
+//Calculo
+escreval(" Valor do consumo Acumulado ", vca1)
+ vcc1<-(vca1+vca2)
+ escreval(vcc1)
+ vcc2<-(vcc1+vca3)
+ escreval(vcc2)
+ vcc3<-(vcc2+vca4)
+ escreval(vcc3)
+ vcc4<-(vcc3+vca5)
+ escreval(vcc4)
+ vcc5<-(vcc4+vca6)
+ escreval(vcc5)
+ vcc6<-(vcc5+vca7)
+ escreval(vcc6)
+ vcc7<-(vcc6+vca8)
+ escreval(vcc7)
+ vcc8<-(vcc7+vca9)
+ escreval(vcc8)
+ vcc9<-(vcc8+vca10)
+ escreval(vcc9)
 
-
-
+ //Calculo Porcentagem
+ escreval("Qual o Valor total do acumulo?")
+ leia(vta)
+ ptg1<-(vca1*vta/vcc9)
+ escreval(ptg1)
 
 
 
