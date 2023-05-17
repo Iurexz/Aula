@@ -13,6 +13,7 @@ vca1,vca2,vca3,vca4,vca5,vca6,vca7,vca8,vca9,vca10:real
 vcc1,vcc2,vcc3,vcc4,vcc5,vcc6,vcc7,vcc8,vcc9,vcc10:real
 
 ptg1,ptg2,ptg3,ptg4,ptg5,ptg6,ptg7,ptg8,ptg9,ptg10:real
+vta:real
 Inicio
 //Produto 1
 escreval(" Nome do Material")
@@ -148,10 +149,24 @@ escreval(" Valor do consumo Acumulado ", vca1)
  //Calculo Porcentagem
  escreval("Qual o Valor total do acumulo?")
  leia(vta)
- ptg1<-(vca1*vta/vcc9)
+ptg1<-(vca1*vta/vcc9)
  escreval(ptg1)
-
-
-
-
+ptg2<-(vcc1*vta/vcc9)
+ escreval(ptg2)
+ptg3<-(vcc2*vta/vcc9)
+ escreval(ptg3)
+ptg4<-(vcc3*vta/vcc9)
+ escreval(ptg4)
+ptg5<-(vcc4*vta/vcc9)
+ escreval(ptg5)
+ptg6<-(vcc5*vta/vcc9)
+ escreval(ptg6)
+ptg7<-(vcc6*vta/vcc9)
+ escreval(ptg7)
+ptg8<-(vcc7*vta/vcc9)
+ escreval(ptg8)
+ptg9<-(vcc8*vta/vcc9)
+ escreval(ptg9)
+ptg10<-(vcc9*vta/vcc9)
+ escreval(ptg10)
 Fimalgoritmo
